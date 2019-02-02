@@ -1,0 +1,265 @@
+@font-face
+{
+    font-family: hht;
+    src:url("fonts/Comfortaa-Regular.ttf");
+}
+@font-face
+{
+	font-family: maian;
+    src:url("fonts/Comfortaa-Regular.ttf");	
+}
+body
+{
+	background-image: url("images/back1.png");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color:#efd9d7;
+	margin: 0px;	
+	padding: 0px ;
+}
+header
+{
+	box-shadow: 0px 13px 22px black;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    height: 75px;
+    width: 93%;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #343145;
+}
+::-webkit-scrollbar
+{
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 50px ;
+	background-color: white;
+	box-shadow: 0px 5px 10px 0px black;
+}
+::-webkit-scrollbar-track
+{
+	border-radius: 50px ;
+	background-color: maroon;
+}
+#p1
+{
+
+	float: left;
+	margin: 15px 0px 0px 80px;
+	color: yellowgreen;
+	height: 40px;
+    width: 300px;
+	font-family: hht;
+	font-size:40px;
+}
+#s1
+{
+	color: #facec9;
+}
+.abtus
+{
+	float: left;
+	background-color: #343145;
+	background-image: url("images/image.jpg");
+	 
+	margin: 25px 0px 20px 0px; 
+	box-shadow: 0px 13px 22px  black;
+  	height:620px;
+  	width:100%;
+  	background-size: inherit;
+}
+.text
+{
+	margin:70px 10px 10px 27.2%;
+	width:45.5%;
+	text-align: center;
+	color: white;
+	font-size: x-large;
+	font-family:maian;
+}
+.title
+{
+	color:yellowgreen;
+	font-size: xx-large;
+	font-family:maian;	
+}
+#m1
+{
+
+	color: yellowgreen;
+	line-height: 45px;
+}
+#s2
+{
+	color: bisque;
+}
+#s3
+{
+	color: white;
+}
+
+
+@media  (max-width: 375px) and (min-width: 200px)
+
+
+{
+	header
+{
+	box-shadow: 0px 13px 22px black;
+    margin: 16px 0px 0px 0px;
+    padding: 0px;
+    height: 39px;
+    width: 93%;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #343145;
+}
+#p1
+{
+	float: left;
+    margin: 6px 0px 0px 37px;
+    color: yellowgreen;
+    height: 32px;
+    width: 300px;
+    font-family: hht;
+    font-size: 30px;
+}
+#s1
+{
+	color: #facec9;
+}
+.abtus
+{
+	float: left;
+    background-color: #343145;
+    background-image: url(images/image.jpg);
+    margin: 25px 0px 20px 0px;
+    box-shadow: 0px 13px 22px black;
+    height: 56%;
+    width: 100%;
+    background-size: inherit;
+}
+.text
+{
+	margin: 30px 10px 10px 46px;
+    width: 272px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: maian;
+}
+.title
+{
+	color:yellowgreen;
+	font-size: xx-large;
+	font-family: maian;	
+}
+#m1
+{
+
+	color: yellowgreen;
+	line-height: 40px;
+}
+}
+
+
+
+@media (min-width: 380px) and  (max-width: 800px) 
+
+{
+		header
+{
+	box-shadow: 0px 13px 22px black;
+    margin: 16px 0px 0px 0px;
+    padding: 0px;
+    height: 39px;
+    width: 93%;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #343145;
+}
+#p1
+{
+	float: left;
+    margin: 6px 0px 0px 37px;
+    color: yellowgreen;
+    height: 32px;
+    width: 300px;
+    font-family: hht;
+    font-size: 30px;
+}
+#s1
+{
+	color: #facec9;
+}
+.abtus
+{
+	float: left;
+    background-color: #343145;
+    background-image: url(images/image.jpg);
+    margin: 25px 0px 20px 0px;
+    box-shadow: 0px 13px 22px black;
+    height: 56%;
+    width: 100%;
+    background-size: inherit;
+}
+.text
+{
+	margin: 30px 10px 10px 76px;
+    width: 272px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: maian;
+}
+.title
+{
+	color:yellowgreen;
+	font-size: xx-large;
+	font-family: maian;	
+}
+#m1
+{
+
+	color: yellowgreen;
+	line-height: 40px;
+}
+}
+
+@media (max-width: 900px) and (min-width:750px) 
+{
+	.text {
+    margin: 30px 10px 10px 247px;
+    width: 272px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: maian;
+}
+}
+@media (max-width: 1029px) and (min-width:770px) 
+{
+	.abtus {
+    float: left;
+    background-color: #343145;
+    background-image: url(images/image.jpg);
+    margin: 25px 0px 20px 0px;
+    box-shadow: 0px 13px 22px black;
+    height: 808px;
+    width: 100%;
+    background-size: inherit;
+}
+.text {
+    margin: 30px 10px 10px 327px;
+    width: 372px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: maian;
+}
+}
+
+
+
+
